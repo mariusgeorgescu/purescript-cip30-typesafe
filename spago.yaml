@@ -1,0 +1,34 @@
+package:
+  dependencies:
+  - aff
+  - bifunctors
+  - cip30
+  - control
+  - effect
+  - either
+  - exceptions
+  - maybe
+  - prelude
+  - spec
+  - transformers
+  - variant
+  name: cip30-typesafe
+workspace:
+  extra_packages:
+    cip30:
+      dependencies:
+      - aff
+      - aff-promise
+      - arrays
+      - console
+      - effect
+      - literals
+      - maybe
+      - newtype
+      - nullable
+      - prelude
+      - untagged-union
+      git: https://github.com/mlabs-haskell/purescript-cip30
+      ref: 8f1b34b48825fcec5e9c67f33e255770b1e0bc45
+  package_set:
+    url: https://raw.githubusercontent.com/purescript/package-sets/psc-0.15.8-20230617/packages.json
